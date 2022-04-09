@@ -1,0 +1,86 @@
+<div class="row">
+    <h1>Skills</h1>
+    <hr>
+
+    <!-- Progress Circle-->
+    <div class="text-center col-sm-6 col-md-4 col-lg-4">
+        <circle-progress
+            [percent]="60"
+            [radius]="100"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="3"
+            [outerStrokeColor]="'#06113C'"
+            [innerStrokeColor]="'#FF8C32'"
+            [animation]="true"
+            [animationDuration]="300"
+            titleColor=#ffffff
+            unitsColor=#ffffff
+            [showImage]="true"
+            [imageSrc]="'assets/html.png'"
+            [imageHeight]="105"
+            [imageWidth]="105"
+            [showBackground]="false"
+    >   </circle-progress>
+    </div>
+    <div class="text-center col-sm-6 col-md-4 col-lg-4">
+        <circle-progress
+            [percent]="75"
+            [radius]="100"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="3"
+            [outerStrokeColor]="'#06113C'"
+            [innerStrokeColor]="'#FF8C32'"
+            [animation]="true"
+            [animationDuration]="300"
+            titleColor=#ffffff
+            unitsColor=#ffffff
+            [showImage]="true"
+            [imageSrc]="'assets/css.png'"
+            [imageHeight]="115"
+            [imageWidth]="80"
+            [showBackground]="false"
+    >   </circle-progress>
+    </div>
+    <div class="text-center col-sm-6 col-md-4 col-lg-4">
+        <circle-progress
+            [percent]="50"
+            [radius]="100"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="3"
+            [outerStrokeColor]="'#06113C'"
+            [innerStrokeColor]="'#FF8C32'"
+            [animation]="true"
+            [animationDuration]="300"
+            titleColor=#ffffff
+            unitsColor=#ffffff
+            [showImage]="true"
+            [imageSrc]="'assets/js.png'"
+            [imageHeight]="120"
+            [imageWidth]="180"
+            [showBackground]="false"
+    >   </circle-progress>
+    </div>
+    <p id="space"></p>
+
+    <!-- PROGRESS BARS-->
+    <div class="text-center col-sm-4 col-md-2 col-lg-2">
+        <p>INGLES</p>
+    </div>
+    <div id="barras" class="text-center col-sm-8 col-md-8 col-lg-8">
+        <ngb-progressbar type="dark" textType="white" [showValue]="true" [value]="50" [striped]="true" [animated]="true"></ngb-progressbar>
+    </div>
+    <p id="space"></p>
+    <div class="text-center col-sm-4 col-md-2 col-lg-2">
+        <p>TRABAJO EN EQUIPO</p>
+    </div>
+    <div id="barras" class="text-center col-sm-8 col-md-8 col-lg-8">
+        <ngb-progressbar type="dark" textType="white" [showValue]="true" [value]="100" [striped]="true" [animated]="true"></ngb-progressbar>
+    </div>
+    <p id="space"></p>
+    <div class="text-center col-sm-4 col-md-2 col-lg-2">
+        <p>LIDERAZGO</p>
+    </div>
+    <div id="barras" class="text-center col-sm-8 col-md-8 col-lg-8">
+        <ngb-progressbar type="dark" textType="white" [showValue]="true" [value]="70" [striped]="true" [animated]="true"></ngb-progressbar>
+    </div>
+</div>

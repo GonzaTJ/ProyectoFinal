@@ -1,0 +1,33 @@
+.row{
+    margin: 10px;
+}
+div{
+    background-color: rgba(172, 172, 172, 0.7);;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#expe {
+    display: inline;
+    vertical-align: middle;
+    font-size:25px;
+} 
+
+p{
+    padding-left: 10%;
+}
+
+#t1{
+    width: 50px;
+    padding-right: 5px;
+}
+
+#t2{
+    width: 150px;
+    padding-right: 5px;
+}
+
+

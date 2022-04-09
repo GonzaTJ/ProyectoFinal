@@ -1,0 +1,14 @@
+.row{
+    margin: 10px;
+}
+
+div{
+    background-color: rgba(172, 172, 172, 0.9);;
+    border-radius: 10px;
+}
+
+.picsum-img-wrapper{
+    margin: 10px    ;
+    height: 650px;
+}
+

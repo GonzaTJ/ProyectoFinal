@@ -1,0 +1,11 @@
+body{
+    background-color: #06113C;
+    background-image: url("../assets/fondo3.png");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+p{
+    margin: 30%;
+}

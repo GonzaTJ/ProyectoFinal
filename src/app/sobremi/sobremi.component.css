@@ -1,0 +1,18 @@
+.row{
+    padding: 0px;
+    margin-right: 0px;
+    margin: 10px;
+}
+
+div{
+    background-color: rgba(172, 172, 172, 0.7);
+    text-align: center;
+    border-radius: 3%;
+
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 15%;
+    font-size: 25px;
+    }
