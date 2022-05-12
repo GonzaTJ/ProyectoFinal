@@ -15,6 +15,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { PorfolioComponent } from './porfolio/porfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,13 +31,16 @@ import { FooterComponent } from './footer/footer.component';
     EstudiosComponent,
     SkillsComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    InicioSesionComponent,
+    PorfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     NgbModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
