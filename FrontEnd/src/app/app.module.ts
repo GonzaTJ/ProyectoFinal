@@ -18,6 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { PorfolioComponent } from './porfolio/porfolio.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NgCircleProgressModule.forRoot({}),
     NgbModule,
     ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
