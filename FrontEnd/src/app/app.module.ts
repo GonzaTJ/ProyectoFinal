@@ -15,6 +15,11 @@ import { SkillsComponent } from './skills/skills.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+import { interceptorProvider } from './service/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -28,15 +33,21 @@ import { FooterComponent } from './footer/footer.component';
     EstudiosComponent,
     SkillsComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     NgbModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

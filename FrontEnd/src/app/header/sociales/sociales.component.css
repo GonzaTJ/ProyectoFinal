@@ -1,5 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 img{
-    width: 40px;
+    width: 30px;
     margin-top:20px;
     margin-right: 10px;
+}
+
+button{
+    margin-top: 10%;
 }
