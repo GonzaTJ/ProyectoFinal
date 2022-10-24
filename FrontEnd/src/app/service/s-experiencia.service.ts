@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  URL = "https://proyectofinalarg.herokuapp.com/personas/explab/";
+  URL = "https://proyectofinalarg.herokuapp.com/explab/";
 
   constructor(private httpClient: HttpClient) { }
 

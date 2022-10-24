@@ -1,22 +1,24 @@
-<!-- <div class="container" *ngIf="expLab">
+
+<!-- <div class="container" *ngIf="educacion">
     <div class="row">
-        <div>
+        <div class="col">
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form-group">
-                    <label for="nombreE">Nombre de la empresa</label>
-                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
+                    <label for="nombreE">Nombre de la institucion</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="educacion.nombreE" required>
                 </div>
                 <div class="form-group">
-                    <label for="descripcionE">Descripcion de la tarea</label>
-                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
+                    <label for="descripcionE">Descripcion de sus estudios</label>
+                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="educacion.descripcionE" required>
                 </div>
                 <button class="btn btn-primary">
-                    Actualizar
+                    Editar educacion
                 </button>
             </form>
         </div>
     </div>
-</div> -->
+</div>
+ -->
 <section class="vh-100 gradient-custom">
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -27,20 +29,19 @@
                         <div class="mb-md-5 mt-md-4 pb-5">
 
                             <h2 class="fw-bold mb-2 text-uppercase">ESTUDIOS</h2>
-                            <p class="text-white-50 mb-5">Ingrese un nuevo estudio</p>
+                            <p class="text-white-50 mb-5">Modifique los campos</p>
 
                             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                                 <div class="form-group">
-                                    <label for="nombreE">Nombre de la empresa</label>
-                                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
+                                    <label for="nombreE">Nombre de la institucion</label>
+                                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="educacion.nombreE" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="descripcionE">Descripcion de la tarea</label>
-                                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
+                                    <label for="descripcionE">Descripcion de sus estudios</label>
+                                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="educacion.descripcionE" required>
                                 </div>
-                                <br>
-                                <button class="btn btn-light fw-bold">
-                                    Actualizar
+                                <button class="btn btn-primary">
+                                    Editar educacion
                                 </button>
                             </form>
 
@@ -52,5 +53,3 @@
         </div>
     </div>
 </section>
-
-

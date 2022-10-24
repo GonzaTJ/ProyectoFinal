@@ -2,14 +2,19 @@
     margin: 10px;
 }
 div{
-    background-color: rgba(172, 172, 172, 0.7);;
+    background-color: rgba(172, 172, 172, 0.7);
     border-radius: 10px;
 }
 
 h1{
     font-size: 45px;
+    background-color: rgba(172, 172, 172, 0.7);
+    margin:0px;
 }
 
+.table{
+    width: 100%;
+}
 #expe {
     display: inline;
     vertical-align: middle;
